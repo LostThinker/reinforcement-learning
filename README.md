@@ -30,7 +30,7 @@ eval-network一直训练更新，而target-network则周期性地与eval-network
 我们独立地用tensorflow编写了一段完整代码，实现了对Space-invaders和Breakout游戏的训练。  
 同时我们查阅了github上相关项目代码，在现有代码的基础上，使用pytorch进行了一定的改进，如消除图片闪烁，并尝试将四帧连续图片改为三帧，同时增大神经网络的结点数，提高记忆池容量，并在卷积与全连接层之间加入了最大池化层。但由于训练轮数有限，暂不能说明改进情况。
 ### 训练结果
-通过1000轮的训练，模型的得分大致稳定在200-300左右
+通过1000轮的训练，模型的得分大致稳定在200左右，效果并不好，训练到最后依然不会躲避子弹。
 ![image](https://github.com/qianlongql/reinforcement-learning/blob/master/%E7%BB%93%E6%9E%9C/training%20reward.png)  
 ![image](https://github.com/qianlongql/reinforcement-learning/blob/master/%E7%BB%93%E6%9E%9C/training%20result.png)
 
