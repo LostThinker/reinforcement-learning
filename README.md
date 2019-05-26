@@ -32,7 +32,7 @@ eval-network一直训练更新，而target-network则周期性地与eval-network
 ### 训练结果
 通过1000轮的训练，模型的得分大致稳定在200-300左右
 ![image](https://github.com/qianlongql/reinforcement-learning/blob/master/%E7%BB%93%E6%9E%9C/training%20reward.png)  
-![image](
+![image](https://github.com/qianlongql/reinforcement-learning/blob/master/%E7%BB%93%E6%9E%9C/training%20result.png)
 
 
 
